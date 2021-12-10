@@ -53,16 +53,13 @@ body ul {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+
 	color: var(--primary-text-color);
 
 	text-decoration: none;
 }
 .contact-link {
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 1.14;
-	letter-spacing: 0.02em;
-	color: var(--primary-text-color);
+	color: var(--secodary-text-color);
 }
 .nav-link:hover,
 .contact-link:hover,
@@ -86,7 +83,7 @@ body ul {
 
 	text-align: center;
 
-	color: #ffffff;
+	color: #fff;
 }
 .hero > .button {
 	background-color: var(--accent-color);
@@ -96,12 +93,13 @@ body ul {
 
 	cursor: pointer;
 
+	font-family: Roboto, sans-serif;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.87;
 	letter-spacing: 0.06em;
 
-	color: #ffffff;
+	color: #fff;
 }
 
 .features > .second-header {
@@ -152,6 +150,8 @@ body ul {
 	line-height: 1.19;
 	/* text-align: center; */
 	letter-spacing: 0.03em;
+
+	color: var(--secodary-text-color);
 }
 
 /* -------------------------portfolio-------------------------- */
@@ -167,6 +167,7 @@ body ul {
 
 	cursor: pointer;
 
+	font-family: Roboto, sans-serif;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
@@ -203,6 +204,9 @@ body ul {
 }
 .address {
 	font-style: normal;
+}
+.address .address-link {
+	text-decoration: none;
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
@@ -210,11 +214,12 @@ body ul {
 	color: #fff;
 }
 .address .contact-link {
-	color: rgba(255, 255, 255, 0.6);
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
+
+	color: rgba(255, 255, 255, 0.6);
 }
 .address .contact-link:hover,
 .address .contact-link:focus {
