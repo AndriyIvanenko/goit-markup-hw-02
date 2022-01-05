@@ -13,20 +13,10 @@ body ul {
 	list-style: none;
 	padding: 0;
 }
-/* .nav-list,
-.contacts-list,
-.features-list,
-.about-list,
-.team-list,
-.buttons-list,
-.works-list {
-	list-style: none;
-	padding: 0;
-} */
 
 /* ------------------------header------------------------- */
 
-.logo {
+/* .logo {
 	font-family: Raleway;
 	font-weight: 700;
 	font-size: 0;
@@ -42,10 +32,24 @@ body ul {
 .logo > .logo-text {
 	font-size: 26px;
 	color: #000;
-}
-/* .logo:focus {
-	outline: none;
 } */
+.logo {
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+
+	color: #000;
+
+	text-decoration: none;
+
+	/* display: flex; */
+	word-spacing: -0.25em;
+}
+.logo > .logo-accent {
+	color: var(--accent-color);
+}
 
 .nav-link,
 .contact-link {
@@ -93,13 +97,17 @@ body ul {
 
 	cursor: pointer;
 
-	font-family: Roboto, sans-serif;
+	/* font-family: Roboto, sans-serif; */
+	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.87;
 	letter-spacing: 0.06em;
 
 	color: #fff;
+
+	display: block;
+	margin: auto;
 }
 
 .features > .second-header {
@@ -167,7 +175,8 @@ body ul {
 
 	cursor: pointer;
 
-	font-family: Roboto, sans-serif;
+	/* font-family: Roboto, sans-serif; */
+	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
